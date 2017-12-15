@@ -28,8 +28,8 @@ public class Questao8 {
 		
 		Integer result = Integer.valueOf(strNumC.toString());
 		
-		//return result.intValue() > 1000000 ? -1 : result;
-		return result;
+		return result.intValue() > 1000000 ? -1 : result;
+		//return result;
 	}
 
 	public static void main(String[] args) {
